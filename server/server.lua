@@ -1,6 +1,7 @@
 local allowed =
 {
-    "steam:1100001434778f1"
+    "steam:",
+    "steam:"
 }
 --You can get your steamhex from http://www.vacbanned.com/ and entering your steam id then copying Steam3 ID (64bit) HEX and not DEC
 RegisterCommand("ped1", function(source)
