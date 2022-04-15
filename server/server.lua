@@ -5,8 +5,6 @@ local allowed =
 }
 --You can get your steamhex from http://www.vacbanned.com/ and entering your steam id then copying Steam3 ID (64bit) HEX and not DEC
 RegisterCommand("ped1", function(source)
-    -- Usage: /jumpscareon <ID>
-    -- Creates a popup on the players screen and starts playing a sound.
     local identifier = GetPlayerIdentifiers(source)[1]
         if checkAllowed(identifier) then
 
