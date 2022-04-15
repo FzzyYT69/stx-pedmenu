@@ -1,4 +1,4 @@
-- Standalone
+- ESX
 -SteamHex Perms in Server.lua
 
 dependencies
