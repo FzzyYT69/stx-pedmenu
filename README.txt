@@ -39,3 +39,5 @@ and after that paste this under the nhcontext event in client
             header = "LilFatRandy",
             event = "LILFATRANDY"
         },
+
+DISCORD : https://discord.gg/GpAQyWPYvn
