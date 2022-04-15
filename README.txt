@@ -1,3 +1,10 @@
+- Standalone
+-SteamHex Perms in Server.lua
+
+dependencies
+
+NH CONTEXT : https://github.com/nerohiro/nh-context/releases/tag/v2.21
+
 if you want to add more peds you need to make a register event or just copy this client 
 
 RegisterNetEvent("type your event-name")
