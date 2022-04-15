@@ -41,3 +41,4 @@ and after that paste this under the nhcontext event in client
         },
 
 DISCORD : https://discord.gg/GpAQyWPYvn
+Preview : https://cdn.discordapp.com/attachments/961483712141361214/964611677679124551/unknown.png
