@@ -7,12 +7,10 @@ RegisterCommand("ped1", function(source)
     -- Usage: /jumpscareon <ID>
     -- Creates a popup on the players screen and starts playing a sound.
     local identifier = GetPlayerIdentifiers(source)[1]
-    if GetCurrentResourceName() == 'stx-pedmenu' then
         if checkAllowed(identifier) then
 
             TriggerClientEvent("CONTEXTMENU:1", source)
         end
-    end
 end)
 
 
