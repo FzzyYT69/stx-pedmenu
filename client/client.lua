@@ -31,13 +31,13 @@ AddEventHandler("Original:Character", function()
     end)
 end)
 
-RegisterNetEvent("LILFATRANDY") -- example
-AddEventHandler("LILFATRANDY", function()
+RegisterNetEvent("Your-Ped-Name") -- example
+AddEventHandler("Your-Ped-Name", function()
     ESX.TriggerServerCallback('esx_skin:getPlayerSkin', function(skin, jobSkin)
   
         if skin.sex == 0 then
 
-          local model = GetHashKey("lilfatrandy")
+          local model = GetHashKey("Your-Ped-Code")
 
           RequestModel(model)
           while not HasModelLoaded(model) do
@@ -47,7 +47,7 @@ AddEventHandler("LILFATRANDY", function()
           SetPlayerModel(PlayerId(), model)
           SetModelAsNoLongerNeeded(model)
         else
-          local model = GetHashKey("lilfatrandy")
+          local model = GetHashKey("Your-Ped-Code")
 
           RequestModel(model)
           while not HasModelLoaded(model) do
@@ -76,8 +76,8 @@ AddEventHandler("CONTEXTMENU:1", function()
             event = "Original:Character"
         },
         {
-            header = "LilFatRandy", -- example
-            event = "LILFATRANDY"
+            header = "Your-Ped-Name", -- example
+            event = "Your-Ped-Event"
         },
     })
 end)
