@@ -21,6 +21,7 @@ AddEventHandler("Original:Character", function()
         RequestModel(model)
         while not HasModelLoaded(model) do
           RequestModel(model)
+	  Citizen.Wait(1)
         end
     
         SetPlayerModel(PlayerId(), model)
@@ -42,6 +43,7 @@ AddEventHandler("Your-Ped-Name", function()
           RequestModel(model)
           while not HasModelLoaded(model) do
             RequestModel(model)
+	    Citizen.Wait(1)
           end
 
           SetPlayerModel(PlayerId(), model)
@@ -52,6 +54,7 @@ AddEventHandler("Your-Ped-Name", function()
           RequestModel(model)
           while not HasModelLoaded(model) do
             RequestModel(model)
+            Citizen.Wait(1)
           end
 
           SetPlayerModel(PlayerId(), model)
