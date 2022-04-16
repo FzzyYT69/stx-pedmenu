@@ -18,6 +18,7 @@ AddEventHandler("type your event-name", function()
           RequestModel(model)
           while not HasModelLoaded(model) do
             RequestModel(model)
+            Citizen.Wait(1)
           end
 
           SetPlayerModel(PlayerId(), model)
@@ -28,6 +29,7 @@ AddEventHandler("type your event-name", function()
           RequestModel(model)
           while not HasModelLoaded(model) do
             RequestModel(model)
+            Citizen.Wait(1)
           end
 
           SetPlayerModel(PlayerId(), model)
