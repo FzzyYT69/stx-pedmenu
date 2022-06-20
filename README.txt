@@ -5,6 +5,8 @@ dependencies
 
 NH CONTEXT : https://github.com/nerohiro/nh-context/releases/tag/v2.21
 
+![Capture1](https://user-images.githubusercontent.com/99145322/174515194-3651390b-6dd0-4b1a-9c16-708da018c4e6.jpg)
+
 if you want to add more peds you need to make a register event or just copy this client 
 
 RegisterNetEvent("type your event-name")
